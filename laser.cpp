@@ -22,19 +22,19 @@ Laser::Laser()
 	live = false; 
 	speed = 15; 
 	radian_angle = 0.0; 
-	image = al_load_bitmap("laser.png"); 
+	image = al_load_bitmap("./img/laser.png"); 
 	boundx = al_get_bitmap_width(image);
 	boundy = al_get_bitmap_height(image);
 	sample = NULL; 
-	sample = al_load_sample("laser.wav");
+	sample = al_load_sample("./sound/laser.wav");
 	destruct = NULL; 
-	destruct = al_load_sample("mechchaos.wav");
+	destruct = al_load_sample("./sound/mechchaos.wav");
 	checkFire = NULL; 
-	checkFire = al_load_sample("checkfire.wav");
+	checkFire = al_load_sample("./sound/checkfire.wav");
 	crateBreak = NULL; 
-	crateBreak = al_load_sample("crateBreak.wav");
+	crateBreak = al_load_sample("./sound/crateBreak.wav");
 	thud = NULL; 
-	thud = al_load_sample("thud.wav"); 
+	thud = al_load_sample("./sound/thud.wav"); 
 	if (!sample || !destruct || !crateBreak ||!thud ||
 		!checkFire)
 	{

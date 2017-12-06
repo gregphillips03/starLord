@@ -19,19 +19,19 @@
 */
 Special::Special()
 {
-	coin = al_load_bitmap("coin.png"); 
-	health = al_load_bitmap("health.png");
-	repair = al_load_bitmap("repair.png"); 
-	healthpack = al_load_bitmap("healthpack.png");
+	coin = al_load_bitmap("./img/coin.png"); 
+	health = al_load_bitmap("./img/health.png");
+	repair = al_load_bitmap("./img/repair.png"); 
+	healthpack = al_load_bitmap("./img/healthpack.png");
 
 	coindrop = NULL; 
-	coindrop = al_load_sample("coin.wav"); 
+	coindrop = al_load_sample("./sound/coin.wav"); 
 	heart = NULL; 
-	heart = al_load_sample("heart.wav");
+	heart = al_load_sample("./sound/heart.wav");
 	wrench = NULL; 
-	wrench = al_load_sample("wrench.wav");
+	wrench = al_load_sample("./sound/wrench.wav");
 	powerup = NULL; 
-	powerup = al_load_sample("powerup.wav"); 
+	powerup = al_load_sample("./sound/powerup.wav"); 
 
 	if (!coindrop || !heart || !wrench || !powerup)
 	{

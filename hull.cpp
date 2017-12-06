@@ -19,7 +19,7 @@ Hull::Hull()
 	char s[80];
 	for (int i = 0; i < 20; i++)
 	{
-		sprintf_s(s, "hull%d.png", i);
+		sprintf_s(s, "./img/hull%d.png", i);
 		image[i] = al_load_bitmap(s);
 		al_convert_mask_to_alpha(image[i], al_map_rgb(255, 255, 255));
 	}

@@ -23,9 +23,9 @@ Crate::Crate()
 	{
 		switch (i)
 		{
-		case 0:	image[i] = al_load_bitmap("crate.png");
+		case 0:	image[i] = al_load_bitmap("./img/crate.png");
 			break;
-		case 1: image[i] = al_load_bitmap("portal_spark.png");
+		case 1: image[i] = al_load_bitmap("./img/portal_spark.png");
 			break;
 		}
 	}
@@ -42,7 +42,7 @@ Crate::Crate()
 	frameHeight = 206;
 	animationColumns = 4;
 	supplyCrateRelease = NULL;
-	supplyCrateRelease = al_load_sample("supplycrate.wav");
+	supplyCrateRelease = al_load_sample("./sound/supplycrate.wav");
 	if (!supplyCrateRelease)
 	{
 		exit(9);

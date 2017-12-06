@@ -25,7 +25,7 @@ Soldier::Soldier()
 	char s[80]; 
 	for (int i = 0; i < maxframe; i++)
 	{
-		sprintf_s(s, "sol-%d.png", i);
+		sprintf_s(s, "./img/sol-%d.png", i);
 		image[i] = al_load_bitmap(s);
 	}
 }

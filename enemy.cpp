@@ -23,15 +23,15 @@ Enemy::Enemy()
 	{
 		switch (i)
 		{
-		case 0:	image[i] = al_load_bitmap("enemy0.png"); 
+		case 0:	image[i] = al_load_bitmap("./img/enemy0.png"); 
 			break; 
-		case 1:	image[i] = al_load_bitmap("enemy1.png");
+		case 1:	image[i] = al_load_bitmap("./img/enemy1.png");
 			break;
-		case 2:	image[i] = al_load_bitmap("enemy2.png");
+		case 2:	image[i] = al_load_bitmap("./img/enemy2.png");
 			break;
-		case 3:	image[i] = al_load_bitmap("enemy3.png");
+		case 3:	image[i] = al_load_bitmap("./img/enemy3.png");
 			break;
-		case 4: image[i] = al_load_bitmap("explodesheet.png"); 
+		case 4: image[i] = al_load_bitmap("./img/explodesheet.png"); 
 			break; 
 		}
 		boundx = al_get_bitmap_width(image[0]);

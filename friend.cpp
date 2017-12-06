@@ -24,9 +24,9 @@ Friend::Friend()
 	{
 		switch (i)
 		{
-		case 0:	image[i] = al_load_bitmap("friend1.png");
+		case 0:	image[i] = al_load_bitmap("./img/friend1.png");
 			break;
-		case 1: image[i] = al_load_bitmap("explosionsheet.png"); 
+		case 1: image[i] = al_load_bitmap("./img/explosionsheet.png"); 
 			break; 
 		}
 		boundx = al_get_bitmap_width(image[0]);
