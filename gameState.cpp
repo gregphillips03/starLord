@@ -18,14 +18,14 @@
 GameState::GameState()
 {
 	sample = NULL; 
-	sample = al_load_sample("speedincrease.wav");
+	sample = al_load_sample("./sound/speedincrease.wav");
 	p1 = NULL; 
-	p1 = al_load_sample("speeddecrease.wav"); 
+	p1 = al_load_sample("./sound/speeddecrease.wav"); 
 	speedreduction = NULL; 
-	speedreduction = al_load_sample("speedreduction.wav"); 
+	speedreduction = al_load_sample("./sound/speedreduction.wav"); 
 
 	healthBar = NULL; 
-	healthBar = al_load_bitmap("healthbar.png"); 
+	healthBar = al_load_bitmap("./img/healthbar.png"); 
 	frameWidth = 228;
 	frameHeight = 136;
 	animationColumns = 7;
@@ -34,7 +34,7 @@ GameState::GameState()
 	curFrame = 0;
 
 	hullhealth = NULL;
-	hullhealth = al_load_bitmap("hullhealth.png"); 
+	hullhealth = al_load_bitmap("./img/hullhealth.png"); 
 	frameWidth_hull = 800; 
 	frameHeight_hull = 25; 
 	animationColumns_hull = 1; 

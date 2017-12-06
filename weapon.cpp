@@ -21,7 +21,7 @@
 */
 Weapon::Weapon(int width, int height)
 {
-	image = al_load_bitmap("weapon.png"); 
+	image = al_load_bitmap("./img/weapon.png"); 
 	angle = 0.0; 
 	boundx = al_get_bitmap_width(image); 
 	boundy = al_get_bitmap_height(image); 

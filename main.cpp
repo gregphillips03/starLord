@@ -74,7 +74,7 @@ int main(void)
 	{
 		return -1; 
 	}
-	sample = al_load_sample("quantum.wav");
+	sample = al_load_sample("./music/quantum.wav");
 
 	if (!sample)
 	{

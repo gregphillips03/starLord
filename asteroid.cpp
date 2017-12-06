@@ -23,7 +23,7 @@ Asteroid::Asteroid()
 	destroy = false; 
 	contact = false; 
 
-	image = al_load_bitmap("asteroid.png");
+	image = al_load_bitmap("./img/asteroid.png");
 	frameWidth = 128; 
 	boundx = frameWidth; 
 	frameHeight = 128;
@@ -35,7 +35,7 @@ Asteroid::Asteroid()
 	frameCount = 0; 
 	frameDelay = 5; 
 
-	destroyed = al_load_bitmap("smoke.png"); 
+	destroyed = al_load_bitmap("./img/smoke.png"); 
 	frameWidth_d = 256;
 	frameHeight_d = 256;
 	animationColumns_d = 7;
@@ -46,7 +46,7 @@ Asteroid::Asteroid()
 	frameDelay_d = 5;
 
 	shatter = NULL; 
-	shatter = al_load_sample("shatter.wav"); 
+	shatter = al_load_sample("./sound/shatter.wav"); 
 	if (!shatter)
 	{
 		exit(9); 

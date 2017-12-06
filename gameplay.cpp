@@ -24,26 +24,26 @@ GamePlay::GamePlay()
 	cameraPosition[1] = 0;
 
 	intro = NULL;
-	intro = al_load_font("term.ttf", 72, 0); //allocate memory for the font, size 72
+	intro = al_load_font("./font/term.ttf", 72, 0); //allocate memory for the font, size 72
 	intro2 = NULL;
-	intro2 = al_load_font("term.ttf", 60, 0); //allocated memory for the font, size 60
+	intro2 = al_load_font("./font/term.ttf", 60, 0); //allocated memory for the font, size 60
 	info = NULL;
-	info = al_load_font("term.ttf", 24, 0); //allocate memory for the font, size 24
+	info = al_load_font("./font/term.ttf", 24, 0); //allocate memory for the font, size 24
 	open24 = NULL;
-	open24 = al_load_font("open24.ttf", 24, 0); //allocate memory for the font, size 24
+	open24 = al_load_font("./font/open24.ttf", 24, 0); //allocate memory for the font, size 24
 	gameOver = NULL;
-	gameOver = al_load_font("term.ttf", 80, 0); //allocate memory for the font, size 80
+	gameOver = al_load_font("./font/term.ttf", 80, 0); //allocate memory for the font, size 80
 
 	background = NULL;
-	background = al_load_bitmap("background.png");
+	background = al_load_bitmap("./img/background.png");
 	scale = NULL;
-	scale = al_load_bitmap("scale.png");
+	scale = al_load_bitmap("./img/scale.png");
 	phaseoneintro = NULL;
-	phaseoneintro = al_load_sample("phaseoneintro.wav");
+	phaseoneintro = al_load_sample("./sound/phaseoneintro.wav");
 	phasetwointro = NULL;
-	phasetwointro = al_load_sample("phasetwointro.wav");
+	phasetwointro = al_load_sample("./sound/phasetwointro.wav");
 	siren = NULL;
-	siren = al_load_sample("siren.wav");
+	siren = al_load_sample("./sound/siren.wav");
 
 	if (!phaseoneintro || !phasetwointro || !siren)
 	{
