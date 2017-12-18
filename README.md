@@ -22,36 +22,29 @@
 
 	+ Create a dependency on the Allegro library. 
 
-	+ Dump the following directories / files into the project:
+	+ Dump the following directories into the project:
 
 		+ /font
 		+ /img
 		+ /music
 		+ /sound
 
-		+ asteroid.cpp
-		+ asteroid.h
-		+ crate.cpp
-		+ crate.h
-		+ enemy.cpp
-		+ enemy.h
-		+ friend.cpp
-		+ friend.h
-		+ gameState.cpp
-		+ gameState.h
-		+ gameplay.cpp
-		+ gameplay.h
-		+ hull.cpp
-		+ hull.h
-		+ laser.cpp
-		+ laser.h
-		+ main.cpp
-		+ soldier.cpp
-		+ soldier.h
-		+ special.cpp
-		+ special.h
-		+ weapon.cpp
-		+ weapon.h
+	+ Dump the following files into the project:
+
+		Name | Source | Header
+		--- | ---: | ---:
+		asteroid | .cpp | .h
+		crate | .cpp  | .h
+		enemy | .cpp | .h
+		friend | .cpp | .h
+		gameState | .cpp | .h
+		gameplay | .cpp | .h
+		hull | .cpp | .h
+		laser | .cpp | .h
+		main | .cpp | .h
+		soldier | .cpp | .h
+		special | .cpp | .h
+		weapon | .cpp | .h
 
 + Detailed run down of how to do this:
 
