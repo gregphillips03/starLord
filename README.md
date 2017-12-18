@@ -12,6 +12,8 @@
 
 + Star Lord also relies heavily on the <a href="liballeg.org">Allegro Game Programming Library</a>, which, while robust, has certain limitations compared to other libraries. However, it provides enough 'baresbones' functionally to allow Star Lord to be a fully functional - and importantly, entertaining - arcade-like game.
 
++ The object was to create a game that you might find in an arcade. I've always wanted to purchase an arcade machine for my house; however, the costs are often outrageous, plus there really isn't much you can do with the game after you've played it through. It's static. You can't customize it. Ergo, the Star Lord project was born with the intent of creating the software I could throw into a custom built, stand up arcade machine. 
+
 <h2>1) Getting this code into VisualStudio</h2>
 
 + Quick run down of what you need to do:
