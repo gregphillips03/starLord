@@ -41,7 +41,7 @@
 		gameplay | .cpp | .h
 		hull | .cpp | .h
 		laser | .cpp | .h
-		main | .cpp | .h
+		main | .cpp | 
 		soldier | .cpp | .h
 		special | .cpp | .h
 		weapon | .cpp | .h
