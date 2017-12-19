@@ -44,7 +44,7 @@
 		hull | .cpp | .h | Manages the hull which enemy ships crash into
 		laser | .cpp | .h | Manages the player's laser cannon
 		main | .cpp | | Driver program and program entry point
-		soldier | .cpp | .h | Manages the video communication overly of friendly soldier
+		soldier | .cpp | .h | Manages the video communication overlay of friendly soldier
 		special | .cpp | .h | Manages the special objects contained in the crates
 		weapon | .cpp | .h | Manages the player ship and its movement
 
