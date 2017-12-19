@@ -24,10 +24,12 @@
 
 	+ Dump the following directories into the project:
 
-		+ /font
-		+ /img
-		+ /music
-		+ /sound
+		Target | Purpose
+		--- | :---
+		/font | Contains the game's font files
+		/img | Contains the image files, sprite sheets, etc. 
+		/music | Contains the game's music files
+		/sound | Contains the game's sound effects and voice clips
 
 	+ Dump the following files into the project:
 
