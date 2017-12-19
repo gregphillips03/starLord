@@ -31,20 +31,20 @@
 
 	+ Dump the following files into the project:
 
-		Name | Source | Header
-		--- | ---: | ---:
-		asteroid | .cpp | .h
-		crate | .cpp  | .h
-		enemy | .cpp | .h
-		friend | .cpp | .h
-		gameState | .cpp | .h
-		gameplay | .cpp | .h
-		hull | .cpp | .h
-		laser | .cpp | .h
-		main | .cpp | 
-		soldier | .cpp | .h
-		special | .cpp | .h
-		weapon | .cpp | .h
+		Name | Source | Header | Purpose
+		--- | ---: | ---: | :---
+		asteroid | .cpp | .h | Manages asteroid objects and their behaviors
+		crate | .cpp  | .h | Manages crate objects and their behaviors
+		enemy | .cpp | .h | Manages enemy ship objects and their behaviors
+		friend | .cpp | .h | Manages friendly ship objects and their behaviors
+		gameState | .cpp | .h | Responsible for holding the current state of game (points, health, progress)
+		gameplay | .cpp | .h | Responsible for managing the progression and flow of the game
+		hull | .cpp | .h | Manages the hull which enemy ships crash into
+		laser | .cpp | .h | Manages the player's laser cannon
+		main | .cpp | Driver program and program entry point
+		soldier | .cpp | .h | Manages the video communication overly of friendly soldier
+		special | .cpp | .h | Manages the special objects contained in the crates
+		weapon | .cpp | .h | Manages the player ship and it's movement
 
 + Detailed run down of how to do this:
 
