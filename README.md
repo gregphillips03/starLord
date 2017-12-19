@@ -32,7 +32,7 @@
 	+ Dump the following files into the project:
 
 		Name | Source | Header | Purpose
-		--- | ---: | ---: | :---
+		--- | ---: | :---: | :---
 		asteroid | .cpp | .h | Manages asteroid objects and their behaviors
 		crate | .cpp  | .h | Manages crate objects and their behaviors
 		enemy | .cpp | .h | Manages enemy ship objects and their behaviors
@@ -41,7 +41,7 @@
 		gameplay | .cpp | .h | Responsible for managing the progression and flow of the game
 		hull | .cpp | .h | Manages the hull which enemy ships crash into
 		laser | .cpp | .h | Manages the player's laser cannon
-		main | .cpp | Driver program and program entry point
+		main | .cpp | | Driver program and program entry point
 		soldier | .cpp | .h | Manages the video communication overly of friendly soldier
 		special | .cpp | .h | Manages the special objects contained in the crates
 		weapon | .cpp | .h | Manages the player ship and it's movement
