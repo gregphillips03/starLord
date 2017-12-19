@@ -58,7 +58,37 @@
 
 <h2>[Ψ] Credits to Other Artists</h2>
 
-+ TODO
++ Game Art:
+
+	+ Enemy Ships
+
+		+ 'wubitog' and 'Skorpio'
+		+ http://opengameart.org/users/skorpio
+
+	+ Space Background
+
+		+ wallpaperscraft.com
+		+ https://wallpaperscraft.com/download/space_planets_takeoff_explosion_96455/1920x1080
+
+	+ Enemy Explosion Animation
+
+		+ 'Aj_'
+		+ https://opengameart.org/content/explosion-sprite
+
+	+ Friendly Explosion Animation
+
+		+ 'nuvorm' via AS3
+		+ http://hasgraphics.com/tag/explosion/
+
+	+ Asteroid Animation
+
+		+ 'para'
+		+ https://opengameart.org/content/low-poly-rocks
+
+	+ Destoryed Asteroid Animation
+
+		+ 'MrBeast'
+		+ https://opengameart.org/content/smoke-aura
 
 <h2>[Ω] Legal / Disclaimer</h2>
 
