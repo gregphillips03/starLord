@@ -2,7 +2,7 @@
 	<link rel="stylesheet" type="text/css" href="./util/mdstyle.css">
 </head>
 
-<h4>NOTE: This README is a work in progress<h4>
+<h4>NOTE: This README is a work in progress, but its up-to-date enough to get you started<h4>
 
 <img src="./img/titleScreen.PNG" title="Title Screen" alt="Star Lord Title Screen" align="middle" />
 
@@ -16,7 +16,8 @@
 
 <h2>[Β] Overview of Game</h2>
 
-+ TODO 
+[![Working Demonstration of Star Lord](https://img.youtube.com/vi/W6D129EU3HE/0.jpg)]
+(https://www.youtube.com/watch?v=W6D129EU3HE)
 
 <h2>[Γ] Getting this code into VisualStudio</h2>
 
