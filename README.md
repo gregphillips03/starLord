@@ -36,7 +36,7 @@
 
 	+ Create a music directory and add your own music. 
 
-		> All of my code points to a music directory where applicable, but I'm not pushing the actual music file out to this repo. The file itself is Skylar Cahn's "<a href="https://www.youtube.com/watch?v=BFKEl-sXy9o">Quantum Communication</a>", a truly fitting score for Star Lord. However the license owned by gregphillipsminiatures.com doesn't allow me to distribute it with the game package. You'll need to purchase the licensure for your own use. You can find out more about that <a href="http://www.skylarcahn.com/product/quantum-communication/">here</a>. 
+		> All of my code points to a music directory where applicable, but I'm not pushing the actual music file out to this repo. The file itself is Skylar Cahn's "<a href="https://www.youtube.com/watch?v=BFKEl-sXy9o">Quantum Communication</a>", <i>a truly fitting score</i> for Star Lord. However the license owned by gregphillipsminiatures.com doesn't allow me to distribute it with the game package. You'll need to purchase the licensure for your own use. You can find out more about that <a href="http://www.skylarcahn.com/product/quantum-communication/">here</a>. 
 
 	+ Dump the following files into the project:
 
