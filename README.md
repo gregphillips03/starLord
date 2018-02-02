@@ -16,6 +16,8 @@
 
 <h2>[Β] Overview of Game</h2>
 
++ Click the picture below to fire off a video of in game play.
+
 [![Working Demonstration of Star Lord](https://img.youtube.com/vi/W6D129EU3HE/0.jpg)](https://www.youtube.com/watch?v=W6D129EU3HE)
 
 <h2>[Γ] Getting this code into VisualStudio</h2>
